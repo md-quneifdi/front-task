@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/front-task/static/css/main.45774946.css",
+    "main.js": "/front-task/static/js/main.865d6b72.js",
+    "static/media/Map.svg": "/front-task/static/media/Map.5ae7136e2f89f434907e.svg",
+    "static/media/Aljazeera.ttf": "/front-task/static/media/Aljazeera.f8fb93ee61532b88b24d.ttf",
+    "index.html": "/front-task/index.html",
+    "main.45774946.css.map": "/front-task/static/css/main.45774946.css.map",
+    "main.865d6b72.js.map": "/front-task/static/js/main.865d6b72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45774946.css",
+    "static/js/main.865d6b72.js"
+  ]
+}
