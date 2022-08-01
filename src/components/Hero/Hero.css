@@ -1,0 +1,72 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding: 10% 40px 8%;
+    width: 100%;
+}
+
+.hero .img-box {
+    width: 44%;
+}
+
+.hero .img-box img {
+    width: 70%;
+}
+
+.hero .text-box {
+    width: 55%;
+    padding: 20px;
+}
+
+.hero .text-box .text {
+    margin-top: 2rem;
+    line-height: 2;
+    font-weight: 700;
+    text-align: right;
+}
+
+.hero .text-box .text p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #FBD675;
+    transition: .4s;
+    transform: translateY(16px);
+}
+
+.hero .text-box .text>p {
+    animation-name: opacity-transition;
+    animation-duration: 1s;
+    transform: translateY(15px);
+}
+
+@keyframes opacity-transition {
+    0% {
+        opacity: 0.1;
+        transform: translateY(1px);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(15px);
+    }
+}
+
+.hero .text-box .text :nth-child(2) {
+    margin-right: 10%;
+    animation-name: opacity-transition;
+    animation-duration: 2s;
+    transform: translateY(16px);
+}
+
+.hero .text-box .text :nth-child(3) {
+    margin-right: 15%;
+    animation-name: opacity-transition;
+    animation-duration: 3s;
+    transform: translateY(16px);
+}

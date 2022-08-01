@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    border-top: 2px solid #eee;
+    padding: 20px; 
+    font-size: 1.3rem;
+}
+
+
+.footer .left > p {
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.right {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 35%;
+}
+
+.icons-part {
+    display: flex;
+    list-style: none;
+}
+
+.icons-part li {
+    margin-right: 1.5rem;
+    width: 28px;
+    cursor: pointer;
+}
+
+
+.icons-part li img {
+    width: 100%;
+}
+
+.footer p:hover {
+    color: #FBD675;
+    cursor: pointer;
+    transition: .7s;
+}

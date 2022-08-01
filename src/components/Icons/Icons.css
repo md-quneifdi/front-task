@@ -1,0 +1,13 @@
+.icons {
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0;
+}
+
+.icons .icons-box {
+    /* background-color: #fff; */
+    /* border: 3px solid #fff; */
+    border-radius: 6px;
+    cursor: pointer;
+}
